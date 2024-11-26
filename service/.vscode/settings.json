@@ -2,21 +2,8 @@
   "prettier.enable": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "never"
   },
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "json",
-    "jsonc",
-    "json5",
-    "yaml"
-  ],
-  "cSpell.words": [
-    "antfu",
-    "chatgpt",
-    "esno",
-    "GPTAPI",
-    "OPENAI"
-  ]
+  "eslint.validate": ["javascript", "typescript", "json", "jsonc", "json5", "yaml"],
+  "cSpell.words": ["antfu", "chatgpt", "esno", "GPTAPI", "OPENAI"]
 }
